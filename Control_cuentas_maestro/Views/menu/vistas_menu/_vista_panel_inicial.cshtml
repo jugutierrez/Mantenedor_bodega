@@ -1,0 +1,7 @@
+﻿@using (Ajax.BeginForm("InforMessage", "menu" , new { id = 1} , new AjaxOptions() { UpdateTargetId = "result", HttpMethod = "POST" } ))
+{
+    <button type="submit">mostrar</button>
+} 
+
+<div id="result">
+</div>
